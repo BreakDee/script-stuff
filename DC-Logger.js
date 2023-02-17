@@ -1,5 +1,5 @@
-const webhookURL = "https://discord.com/api/webhooks/1074660620097564672/m94mq1MkmeEa1D4RT3OpiWvWSIZnBp17Y_BiEq7orfq4ekVKJtoXe4Afnlgz8xo805Et";
-const ipdataApiKey = "ab98c61b24be9e65bb0c740eb12ced18fc5be6cedcd77b9d417f82b1";
+const webhookURL = "webhookURL";
+const ipdataApiKey = "ipdataApiKey";
 
 // Get details from IPData API
 fetch(`https://api.ipdata.co/?api-key=${ipdataApiKey}`)
