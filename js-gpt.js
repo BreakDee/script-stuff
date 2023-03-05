@@ -1,6 +1,6 @@
 const prompt = "Hello, how are you today?";
 const apiKey = "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";
-api() {
+function api() {
     fetch("https://api.openai.com/v1/engine/davinci/completions", {
             method: "POST",
             headers: {
